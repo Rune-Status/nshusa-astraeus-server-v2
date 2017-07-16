@@ -105,8 +105,6 @@ public abstract class Mob extends Entity {
 	@Setter
 	private int id;
 
-	protected int size = 1;
-
 	@Getter
 	@Setter
 	private int walkingDirection = -1;
@@ -326,10 +324,6 @@ public abstract class Mob extends Entity {
 
 	public Player getPlayer() {
 		return World.getPlayers().get(slot);
-	}
-
-	public int getSize() {
-		return size;
 	}
 
 	public boolean isUpdateRequired() {

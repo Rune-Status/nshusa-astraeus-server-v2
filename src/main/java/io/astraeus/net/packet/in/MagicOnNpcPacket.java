@@ -1,8 +1,8 @@
 package io.astraeus.net.packet.in;
 
+import io.astraeus.cache.NpcDefinition;
 import io.astraeus.game.world.World;
 import io.astraeus.game.world.entity.mob.npc.Npc;
-import io.astraeus.game.world.entity.mob.npc.NpcDefinition;
 import io.astraeus.game.world.entity.mob.player.Player;
 import io.astraeus.net.codec.ByteModification;
 import io.astraeus.net.codec.ByteOrder;
@@ -25,7 +25,7 @@ public final class MagicOnNpcPacket implements Receivable {
       return;
     }
 
-    NpcDefinition def = NpcDefinition.get(mobMagic.getId());
+    NpcDefinition def = NpcDefinition.lookup(mobMagic.getId());
 
     if (def == null) {
       return;

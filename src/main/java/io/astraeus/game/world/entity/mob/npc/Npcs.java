@@ -35,7 +35,7 @@ public final class Npcs {
       npc.setCreatedPosition(new Position(spawn.getPosition()));
 
       npc.setFacingDirection(spawn.getFacing());
-      npc.setRandomWalk(spawn.isRandomWalk());
+      npc.setRadius(spawn.getRadius());
       npc.setRegistered(true);
       npc.setVisible(true);
       npc.getUpdateFlags().add(UpdateFlag.APPEARANCE);
@@ -78,7 +78,7 @@ public final class Npcs {
    * @param mob The mob to reset.
    */
   public static void resetFacingDirection(Npc mob) {
-    if (mob.isRandomWalk() && mob.getInteractingEntity() == null) {
+    if (mob.getRadius() != 0 && mob.getInteractingEntity() == null) {
       return;
     }
 

@@ -1,8 +1,8 @@
 package io.astraeus.net.packet.in;
 
+import io.astraeus.cache.NpcDefinition;
 import io.astraeus.game.world.World;
 import io.astraeus.game.world.entity.mob.npc.Npc;
-import io.astraeus.game.world.entity.mob.npc.NpcDefinition;
 import io.astraeus.game.world.entity.mob.player.Player;
 import io.astraeus.game.world.entity.mob.player.PlayerRights;
 import io.astraeus.net.codec.ByteModification;
@@ -17,7 +17,7 @@ public final class AttackNpcPacket implements Receivable {
   public void handlePacket(Player player, IncomingPacket packet) {
     final int npcIndex = packet.getReader().readShort(false, ByteModification.ADDITION);
 
-    if (npcIndex < 0 || npcIndex > NpcDefinition.MOB_LIMIT) {
+    if (npcIndex < 0 || npcIndex > NpcDefinition.getCount()) {
       return;
     }
 

@@ -3,6 +3,7 @@ package io.astraeus.game.world.entity.mob.npc;
 import java.util.Objects;
 import java.util.Optional;
 
+import io.astraeus.cache.NpcDefinition;
 import io.astraeus.game.GameConstants;
 import io.astraeus.game.world.Direction;
 import io.astraeus.game.world.Position;
@@ -35,10 +36,6 @@ public class Npc extends Mob {
 
   @Getter
   @Setter
-  private boolean randomWalk;
-
-  @Getter
-  @Setter
   private int respawnTimer;
 
   @Getter
@@ -47,11 +44,13 @@ public class Npc extends Mob {
   @Getter
   @Setter
   private boolean following;
+  
+  @Getter @Setter
+  private int radius;
 
   public Npc(int id) {
     super(GameConstants.DEFAULT_LOCATION);
     setId(id);
-    size = NpcDefinition.get(id).getSize();
     
     Optional<NpcCombatDefinition> npcCombatDef = NpcCombatDefinition.lookup(id);
     
@@ -71,19 +70,11 @@ public class Npc extends Mob {
 
   @Override
   public int size() {
-    return NpcDefinition.get(getId()).getSize();
+    return NpcDefinition.lookup(getId()).tilesOccupied;
   }
 
   public String getName() {
-    return NpcDefinition.getDefinitions()[getId()].getName();
-  }
-
-  public String getName(int npcId) {
-    if (NpcDefinition.getDefinitions()[npcId] == null || npcId < 0
-        || npcId >= NpcDefinition.MOB_LIMIT) {
-      return "None";
-    }
-    return NpcDefinition.getDefinitions()[npcId].getName();
+    return NpcDefinition.lookup(getId()).getName();
   }
 
   @Override
@@ -93,7 +84,7 @@ public class Npc extends Mob {
 
     tick();
 
-    if (!isRandomWalk() && getInteractingEntity() == null && getTick() % 5 == 4) {
+    if (radius == 0 && getInteractingEntity() == null && getTick() % 5 == 4) {
       Npcs.resetFacingDirection(this);
     }
 
@@ -101,7 +92,7 @@ public class Npc extends Mob {
       resetEntityInteraction();
     }
 
-    if (isRandomWalk() && getInteractingEntity() == null && getTick() % 5 == 4) {
+    if (radius != 0 && getInteractingEntity() == null && getTick() % 5 == 4) {
       Npcs.handleRandomWalk(this);
     }
   }
@@ -126,12 +117,12 @@ public class Npc extends Mob {
   public boolean isWalkToHome() {
     if (Area.inWilderness(this)) {
       return Math.abs(getPosition().getX() - createdPosition.getX())
-          + Math.abs(getPosition().getY() - createdPosition.getY()) > getSize() * 1 + 2;
+          + Math.abs(getPosition().getY() - createdPosition.getY()) > size() * 1 + 2;
     }
 
     if (isNpc()) { // TODO: isAttackable
       return Math.abs(getPosition().getX() - createdPosition.getX())
-          + Math.abs(getPosition().getY() - createdPosition.getY()) > getSize() * 2 + 6;
+          + Math.abs(getPosition().getY() - createdPosition.getY()) > size() * 2 + 6;
     }
 
     return Position.getManhattanDistance(createdPosition, getPosition()) > 2;

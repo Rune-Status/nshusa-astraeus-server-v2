@@ -17,6 +17,10 @@ import lombok.val;
 public final class NpcDefinition {
 	
 	private static final Logger logger = LoggerUtils.getLogger(NpcDefinition.class);
+	
+	private static NpcDefinition[] definitions;
+	
+	private static int npcCount;
 
 	public int turn90CCWAnimIndex = -1;
 	public int varbitId = -1;
@@ -50,6 +54,16 @@ public final class NpcDefinition {
 		this.id = id;
 	}
 	
+	public static NpcDefinition lookup(int id) {
+		NpcDefinition def = definitions[id];
+		
+		return def == null ? definitions[0] : def;
+	}
+	
+	public static int getCount() {
+		return npcCount;
+	}
+	
 	public static void decode(IndexedFileSystem fs) {
 		try {
 
@@ -61,12 +75,16 @@ public final class NpcDefinition {
 
 			val size = datBuf.readUnsignedShort();
 			
+			npcCount = size;
+			
 			val defs = new NpcDefinition[size];
 			
 			for (int i = 0; i < defs.length; i++) {
 				
 				defs[i] = decode(i, datBuf);
 			}
+			
+			NpcDefinition.definitions = defs;
 
 			logger.info(String.format("Loaded: %d npc definitions.", size));			
 
@@ -181,5 +199,5 @@ public final class NpcDefinition {
 	
 
 	}
-
+	
 }

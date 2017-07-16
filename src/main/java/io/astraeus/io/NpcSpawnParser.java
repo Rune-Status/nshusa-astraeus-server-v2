@@ -1,29 +1,37 @@
 package io.astraeus.io;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Arrays;
+import java.util.Objects;
 
-import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 
+import io.astraeus.game.world.Direction;
+import io.astraeus.game.world.Position;
 import io.astraeus.game.world.entity.mob.npc.NpcSpawn;
 import io.astraeus.game.world.entity.mob.npc.Npcs;
-import io.astraeus.util.GsonObjectParser;
+import io.astraeus.util.GsonParser;
+import lombok.val;
 
-public final class NpcSpawnParser extends GsonObjectParser<NpcSpawn> {
+public final class NpcSpawnParser extends GsonParser {
 
-  public NpcSpawnParser() {
-    super("./data/npc/npc_spawns");
-  }
+	public NpcSpawnParser() {
+		super("./data/npc/npc_spawns");
+	}
 
-  @Override
-  public NpcSpawn[] deserialize(Gson gson, FileReader reader) throws IOException {
-    return gson.fromJson(reader, NpcSpawn[].class);
-  }
+	@Override
+	protected void parse(JsonObject data) {
 
-  @Override
-  public void onRead(NpcSpawn[] array) throws IOException {
-    Arrays.stream(array).forEach($it -> Npcs.createSpawn($it));
-  }
+		val id = data.get("id").getAsInt();
+		val position = Objects.requireNonNull(builder.fromJson(data.get("position").getAsJsonObject(), Position.class));	
+		val facing = Direction.valueOf(data.get("facing").getAsString());
+		val radius = data.get("radius").getAsInt();
+		
+		val spawn = new NpcSpawn(id, position, facing, radius);
+		
+		Npcs.createSpawn(spawn);
+		
+		System.out.println(id);
+		
+		
+	}
 
 }

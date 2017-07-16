@@ -8,9 +8,9 @@ import java.util.Queue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import io.astraeus.cache.NpcDefinition;
 import io.astraeus.game.world.World;
 import io.astraeus.game.world.entity.mob.npc.Npc;
-import io.astraeus.game.world.entity.mob.npc.NpcDefinition;
 import io.astraeus.game.world.entity.mob.player.Player;
 import io.astraeus.net.packet.out.DisplayNpcHeadModelOnWidgetPacket;
 import io.astraeus.net.packet.out.DisplayPlayerHeadModelOnWidgetPacket;
@@ -409,7 +409,7 @@ public final class DialogueFactory {
       npcId = dialogue.getId();
     }
 
-    final NpcDefinition mob = NpcDefinition.get(npcId);
+    final NpcDefinition mob = NpcDefinition.lookup(npcId);
 
     if (mob == null) {
       return this;

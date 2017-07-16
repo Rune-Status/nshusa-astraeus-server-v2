@@ -39,7 +39,7 @@ public final class MobDeathTask extends Task {
     super(0, true);
     this.attacker= attacker;
     this.victim = victim;
-    this.spawn = victim.isNpc() ? new NpcSpawn(victim.getId(), victim.getCreatedPosition()) : null;
+    this.spawn = victim.isNpc() ? new NpcSpawn(victim.getId(), victim.getCreatedPosition(), 0) : null;
     this.npcCombatDef = victim.isNpc() ? NpcCombatDefinition.lookup(victim.getId()) : Optional.empty();
     this.spawnTime = victim.isNpc() ? npcCombatDef.isPresent() ? npcCombatDef.get().getRespawnTime() : 20 : 0;
     this.drop = victim.isNpc() ? NpcDrop.lookup(victim.getId()) : Optional.empty();

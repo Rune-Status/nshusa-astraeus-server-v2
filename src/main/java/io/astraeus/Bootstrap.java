@@ -17,7 +17,6 @@ import io.astraeus.io.EquipmentDefinitionParser;
 import io.astraeus.io.GlobalObjectParser;
 import io.astraeus.io.IPBanParser;
 import io.astraeus.io.NpcCombatDefinitionParser;
-import io.astraeus.io.NpcDefinitionParser;
 import io.astraeus.io.NpcDropParser;
 import io.astraeus.io.NpcSpawnParser;
 import io.astraeus.io.PacketSizeParser;
@@ -138,7 +137,6 @@ public final class Bootstrap {
     logger.info("Loading startup files..");
     serviceLoader.execute(() -> {
       new GlobalObjectParser().run();
-      new NpcDefinitionParser().run();
       new NpcSpawnParser().run();
       new IPBanParser().run();
       new EquipmentDefinitionParser().run();
