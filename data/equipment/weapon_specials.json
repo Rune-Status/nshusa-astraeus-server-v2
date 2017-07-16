@@ -1,0 +1,140 @@
+[
+  {
+    "type": "DRAGON_DAGGER",
+    "ids": [
+      1215,
+      1231,
+      5680,
+      5698
+    ],
+    "amount": 25,
+    "strength": 1.15,
+    "accuracy": 1.25,
+    "combat": "MELEE",
+    "weapon": "DAGGER"
+  },
+  {
+    "type": "GRANITE_MAUL",
+    "ids": [
+      4153
+    ],
+    "amount": 50,
+    "strength": 1.5,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "WARHAMMER"
+  },
+  {
+    "type": "ABYSSAL_WHIP",
+    "ids": [
+      4151
+    ],
+    "amount": 50,
+    "strength": 1,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "WHIP"
+  },
+  {
+    "type": "DRAGON_LONGSWORD",
+    "ids": [
+      1305
+    ],
+    "amount": 25,
+    "strength": 1.25,
+    "accuracy": 1.25,
+    "combat": "MELEE",
+    "weapon": "LONGSWORD"
+  },
+  {
+    "type": "MAGIC_SHORTBOW",
+    "ids": [
+      861
+    ],
+    "amount": 50,
+    "strength": 1,
+    "accuracy": 1.1,
+    "combat": "RANGE",
+    "weapon": "SHORTBOW"
+  },
+  {
+    "type": "MAGIC_LONGBOW",
+    "ids": [
+      859
+    ],
+    "amount": 35,
+    "strength": 1,
+    "accuracy": 5,
+    "combat": "RANGE",
+    "weapon": "LONGBOW"
+  },
+  {
+    "type": "DRAGON_BATTLEAXE",
+    "ids": [
+      1377
+    ],
+    "amount": 100,
+    "strength": 1,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "BATTLEAXE"
+  },
+  {
+    "type": "DRAGON_SPEAR",
+    "ids": [
+      1249,
+	  1263,
+	  5716,
+	  5730
+    ],
+    "amount": 25,
+    "strength": 1,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "SPEAR"
+  },
+  {
+    "type": "DRAGON_MACE",
+    "ids": [
+      1434
+    ],
+    "amount": 25,
+    "strength": 1.45,
+    "accuracy": 0.9,
+    "combat": "MELEE",
+    "weapon": "MACE"
+  },
+  {
+    "type": "DRAGON_SCIMITAR",
+    "ids": [
+      4587
+    ],
+    "amount": 55,
+    "strength": 1,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "SCIMITAR"
+  },
+  {
+    "type": "DRAGON_2H_SWORD",
+    "ids": [
+      7158
+    ],
+    "amount": 60,
+    "strength": 1,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "TWO_HANDED_SWORD"
+  },
+  {
+    "type": "DRAGON_HALBERD",
+    "ids": [
+      3204
+    ],
+    "amount": 30,
+    "strength": 1.1,
+    "accuracy": 1,
+    "combat": "MELEE",
+    "weapon": "HALBERD"
+  }
+]

@@ -1,0 +1,5714 @@
+[
+  {
+    "id": 35,
+    "name": "Excalibur",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 466,
+    "name": "Pickaxe handle",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 667,
+    "name": "Blurite sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 746,
+    "name": "Dark dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 747,
+    "name": "Glowing dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 767,
+    "name": "Phoenix crossbow",
+    "type": "CROSSBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 772,
+    "name": "Dramen staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 800,
+    "name": "Bronze thrownaxe",
+    "type": "THROWNAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 801,
+    "name": "Iron thrownaxe",
+    "type": "THROWNAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 802,
+    "name": "Steel thrownaxe",
+    "type": "THROWNAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 803,
+    "name": "Mithril thrownaxe",
+    "type": "THROWNAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 804,
+    "name": "Addy thrownaxe",
+    "type": "THROWNAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 805,
+    "name": "Rune thrownaxe",
+    "type": "THROWNAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 806,
+    "name": "Bronze dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 807,
+    "name": "Iron dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 808,
+    "name": "Steel dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 809,
+    "name": "Mithril dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 810,
+    "name": "Adamant dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 811,
+    "name": "Rune dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 812,
+    "name": "Bronze dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 813,
+    "name": "Iron dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 814,
+    "name": "Steel dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 815,
+    "name": "Mithril dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 816,
+    "name": "Adamant dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 817,
+    "name": "Rune dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 818,
+    "name": "Poisoned dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 825,
+    "name": "Bronze javelin",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 826,
+    "name": "Iron javelin",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 827,
+    "name": "Steel javelin",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 828,
+    "name": "Mithril javelin",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 829,
+    "name": "Adamant javelin",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 830,
+    "name": "Rune javelin",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 831,
+    "name": "Bronze javelin(p)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 832,
+    "name": "Iron javelin(p)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 833,
+    "name": "Steel javelin(p)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 834,
+    "name": "Mithril javelin(p)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 835,
+    "name": "Adamant javelin(p)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 836,
+    "name": "Rune javelin(p)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 837,
+    "name": "Crossbow",
+    "type": "CROSSBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2074,
+      "walk": 2076,
+      "run": 2077
+    }
+  },
+  {
+    "id": 839,
+    "name": "Longbow",
+    "type": "UNARMED",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 841,
+    "name": "Shortbow",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 843,
+    "name": "Oak shortbow",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 845,
+    "name": "Oak longbow",
+    "type": "LONGBOW",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 847,
+    "name": "Willow longbow",
+    "type": "LONGBOW",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 849,
+    "name": "Willow shortbow",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 851,
+    "name": "Maple longbow",
+    "type": "LONGBOW",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 853,
+    "name": "Maple shortbow",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 855,
+    "name": "Yew longbow",
+    "type": "LONGBOW",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 857,
+    "name": "Yew shortbow",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 859,
+    "name": "Magic longbow",
+    "type": "LONGBOW",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 861,
+    "name": "Magic shortbow",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 863,
+    "name": "Iron knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 864,
+    "name": "Bronze knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 865,
+    "name": "Steel knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 866,
+    "name": "Mithril knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 867,
+    "name": "Adamant knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 868,
+    "name": "Rune knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 869,
+    "name": "Black knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 870,
+    "name": "Bronze knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 871,
+    "name": "Iron knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 872,
+    "name": "Steel knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 873,
+    "name": "Mithril knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 874,
+    "name": "Black knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 875,
+    "name": "Adamant knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 876,
+    "name": "Rune knife(p)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1203,
+    "name": "Iron dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1205,
+    "name": "Bronze dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1207,
+    "name": "Steel dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1209,
+    "name": "Mithril dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1211,
+    "name": "Adamant dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1213,
+    "name": "Rune dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1215,
+    "name": "Dragon dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1217,
+    "name": "Black dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1219,
+    "name": "Iron dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1221,
+    "name": "Bronze dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1223,
+    "name": "Steel dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1225,
+    "name": "Mithril dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1227,
+    "name": "Adamant dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1229,
+    "name": "Rune dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1231,
+    "name": "Dragon dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1233,
+    "name": "Black dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1235,
+    "name": "Poisoned dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1237,
+    "name": "Bronze spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1239,
+    "name": "Iron spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1241,
+    "name": "Steel spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1243,
+    "name": "Mithril spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1245,
+    "name": "Adamant spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1247,
+    "name": "Rune spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1249,
+    "name": "Dragon spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1251,
+    "name": "Bronze spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1253,
+    "name": "Iron spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1255,
+    "name": "Steel spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1257,
+    "name": "Mithril spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1259,
+    "name": "Adamant spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1261,
+    "name": "Rune spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1263,
+    "name": "Dragon spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1265,
+    "name": "Bronze pickaxe",
+    "type": "PICKAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1267,
+    "name": "Iron pickaxe",
+    "type": "PICKAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1269,
+    "name": "Steel pickaxe",
+    "type": "PICKAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1271,
+    "name": "Adamant pickaxe",
+    "type": "PICKAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1273,
+    "name": "Mithril pickaxe",
+    "type": "PICKAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1275,
+    "name": "Rune pickaxe",
+    "type": "PICKAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1277,
+    "name": "Bronze sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1279,
+    "name": "Iron sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1281,
+    "name": "Steel sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1283,
+    "name": "Black sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1285,
+    "name": "Mithril sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1287,
+    "name": "Adamant sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1289,
+    "name": "Rune sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1291,
+    "name": "Bronze longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1293,
+    "name": "Iron longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1295,
+    "name": "Steel longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1297,
+    "name": "Black longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1299,
+    "name": "Mithril longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1301,
+    "name": "Adamant longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1303,
+    "name": "Rune longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1305,
+    "name": "Dragon longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": -1,
+      "run": -1
+    }
+  },
+  {
+    "id": 1307,
+    "name": "Bronze 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1309,
+    "name": "Iron 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1311,
+    "name": "Steel 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1313,
+    "name": "Black 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1315,
+    "name": "Mithril 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1317,
+    "name": "Adamant 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1319,
+    "name": "Rune 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 1321,
+    "name": "Bronze scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1323,
+    "name": "Iron scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1325,
+    "name": "Steel scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1327,
+    "name": "Black scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1329,
+    "name": "Mithril scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1331,
+    "name": "Adamant scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1333,
+    "name": "Rune scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1335,
+    "name": "Iron warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1337,
+    "name": "Bronze warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1339,
+    "name": "Steel warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1341,
+    "name": "Black warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1343,
+    "name": "Mithril warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1345,
+    "name": "Addy warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1347,
+    "name": "Rune warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1349,
+    "name": "Iron axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1351,
+    "name": "Bronze axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1353,
+    "name": "Steel axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1355,
+    "name": "Mithril axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1357,
+    "name": "Adamant axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1359,
+    "name": "Rune axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1361,
+    "name": "Black axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1363,
+    "name": "Iron battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1365,
+    "name": "Steel battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1367,
+    "name": "Black battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1369,
+    "name": "Mithril battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1371,
+    "name": "Adamant battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1373,
+    "name": "Rune battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1375,
+    "name": "Bronze battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1377,
+    "name": "Dragon battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1379,
+    "name": "Staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1381,
+    "name": "Staff of air",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1383,
+    "name": "Staff of water",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1385,
+    "name": "Staff of earth",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1387,
+    "name": "Staff of fire",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1389,
+    "name": "Magic staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1391,
+    "name": "Battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1393,
+    "name": "Fire battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1395,
+    "name": "Water battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1397,
+    "name": "Air battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1399,
+    "name": "Earth battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1401,
+    "name": "Mystic fire staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1403,
+    "name": "Mystic water staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1405,
+    "name": "Mystic air staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1407,
+    "name": "Mystic earth staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1409,
+    "name": "Iban\u0027s staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1419,
+    "name": "Scythe",
+    "type": "SCYTHE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1420,
+    "name": "Iron mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1422,
+    "name": "Bronze mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1424,
+    "name": "Steel mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1426,
+    "name": "Black mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1428,
+    "name": "Mithril mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1430,
+    "name": "Adamant mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1432,
+    "name": "Rune mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 1434,
+    "name": "Dragon mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2402,
+    "name": "Silverlight",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2415,
+    "name": "Saradomin staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2416,
+    "name": "Guthix staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2417,
+    "name": "Zamorak staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2425,
+    "name": "Orbital knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2460,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2462,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2464,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2466,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2468,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2470,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2472,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2474,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2476,
+    "name": "Flowers",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2883,
+    "name": "Ogre bow",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2952,
+    "name": "Wolfbane",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2961,
+    "name": "Silver sickle",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2963,
+    "name": "Silver sickle(b)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 2997,
+    "name": "Pirate\u0027s hook",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3053,
+    "name": "Lava battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3054,
+    "name": "Mystic lava staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3093,
+    "name": "Black dart",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3094,
+    "name": "Black dart(p)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3095,
+    "name": "Bronze claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3096,
+    "name": "Iron claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3097,
+    "name": "Steel claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3098,
+    "name": "Black claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3099,
+    "name": "Mithril claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3100,
+    "name": "Adamant claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3101,
+    "name": "Rune claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3170,
+    "name": "Bronze spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3171,
+    "name": "Iron spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3172,
+    "name": "Steel spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3173,
+    "name": "Mithril spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3174,
+    "name": "Adamant spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3175,
+    "name": "Rune spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3176,
+    "name": "Dragon spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 3190,
+    "name": "Bronze halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3192,
+    "name": "Iron halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3194,
+    "name": "Steel halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3196,
+    "name": "Black halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3198,
+    "name": "Mithril halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3200,
+    "name": "Adamant halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3202,
+    "name": "Rune halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3204,
+    "name": "Dragon halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 3899,
+    "name": "Iron sickle",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4037,
+    "name": "Saradomin banner",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4039,
+    "name": "Zamorak banner",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4068,
+    "name": "Decorative sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4151,
+    "name": "Abyssal whip",
+    "type": "WHIP",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 1659,
+      "stand": 1832,
+      "walk": 1660,
+      "run": 1661
+    }
+  },
+  {
+    "id": 4153,
+    "name": "Granite maul",
+    "type": "WARHAMMER",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 1666,
+      "stand": 1662,
+      "walk": 1663,
+      "run": 1664
+    }
+  },
+  {
+    "id": 4158,
+    "name": "Leaf-bladed spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4170,
+    "name": "Slayer\u0027s staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4178,
+    "name": "Abyssal whip",
+    "type": "WHIP",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 1832,
+      "walk": 1660,
+      "run": 1661
+    }
+  },
+  {
+    "id": 4212,
+    "name": "New crystal bow",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4214,
+    "name": "Crystal bow full",
+    "type": "SHORTBOW",
+    "twoHanded": true,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4215,
+    "name": "Crystal bow 9/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4216,
+    "name": "Crystal bow 8/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4217,
+    "name": "Crystal bow 7/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4218,
+    "name": "Crystal bow 6/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4219,
+    "name": "Crystal bow 5/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4220,
+    "name": "Crystal bow 4/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4221,
+    "name": "Crystal bow 3/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4222,
+    "name": "Crystal bow 2/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4223,
+    "name": "Crystal bow 1/10",
+    "type": "SHORTBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4236,
+    "name": "Signed oak bow",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4503,
+    "name": "Decorative sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4508,
+    "name": "Decorative sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4580,
+    "name": "Black spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4582,
+    "name": "Black spear(p)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4584,
+    "name": "Black spear(kp)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4587,
+    "name": "Dragon scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4675,
+    "name": "Ancient staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4710,
+    "name": "Ahrim\u0027s staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 4718,
+    "name": "Dharok\u0027s greataxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2065,
+      "walk": 1663,
+      "run": 1664
+    }
+  },
+  {
+    "id": 4726,
+    "name": "Guthan\u0027s warspear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4734,
+    "name": "Karil\u0027s crossbow",
+    "type": "CROSSBOW",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2074,
+      "walk": 2076,
+      "run": 2077
+    }
+  },
+  {
+    "id": 4747,
+    "name": "Torag\u0027s hammers",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4755,
+    "name": "Verac\u0027s flail",
+    "type": "WHIP",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 2063,
+      "stand": 1832,
+      "walk": 1830,
+      "run": 1831
+    }
+  },
+  {
+    "id": 4827,
+    "name": "Comp ogre bow",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4862,
+    "name": "Ahrim\u0027s staff 100",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 4863,
+    "name": "Ahrim\u0027s staff 75",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 4864,
+    "name": "Ahrim\u0027s staff 50",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 4865,
+    "name": "Ahrim\u0027s staff 25",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 4886,
+    "name": "Dharok\u0027s axe 100",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2065,
+      "walk": 1663,
+      "run": 1664
+    }
+  },
+  {
+    "id": 4887,
+    "name": "Dharok\u0027s axe 75",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2065,
+      "walk": 1663,
+      "run": 1664
+    }
+  },
+  {
+    "id": 4888,
+    "name": "Dharok\u0027s axe 50",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2065,
+      "walk": 1663,
+      "run": 1664
+    }
+  },
+  {
+    "id": 4889,
+    "name": "Dharok\u0027s axe 25",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2065,
+      "walk": 1663,
+      "run": 1664
+    }
+  },
+  {
+    "id": 4910,
+    "name": "Guthan\u0027s spear 100",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4911,
+    "name": "Guthan\u0027s spear 75",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4912,
+    "name": "Guthan\u0027s spear 50",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4913,
+    "name": "Guthan\u0027s spear 25",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4934,
+    "name": "Karil\u0027s x-bow 100",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2074,
+      "walk": 2076,
+      "run": 2077
+    }
+  },
+  {
+    "id": 4935,
+    "name": "Karil\u0027s x-bow 75",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2074,
+      "walk": 2076,
+      "run": 2077
+    }
+  },
+  {
+    "id": 4936,
+    "name": "Karil\u0027s x-bow 50",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2074,
+      "walk": 2076,
+      "run": 2077
+    }
+  },
+  {
+    "id": 4937,
+    "name": "Karil\u0027s x-bow 25",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 4,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2074,
+      "walk": 2076,
+      "run": 2077
+    }
+  },
+  {
+    "id": 4958,
+    "name": "Torag\u0027s hammer 100",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4959,
+    "name": "Torag\u0027s hammer 75",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4960,
+    "name": "Torag\u0027s hammer 50",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4961,
+    "name": "Torag\u0027s hammer 25",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 4982,
+    "name": "Verac\u0027s flail 100",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 1832,
+      "walk": 1830,
+      "run": 1831
+    }
+  },
+  {
+    "id": 4983,
+    "name": "Verac\u0027s flail 75",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 1832,
+      "walk": 1830,
+      "run": 1831
+    }
+  },
+  {
+    "id": 4984,
+    "name": "Verac\u0027s flail 50",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 1832,
+      "walk": 1830,
+      "run": 1831
+    }
+  },
+  {
+    "id": 4985,
+    "name": "Verac\u0027s flail 25",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 1832,
+      "walk": 1830,
+      "run": 1831
+    }
+  },
+  {
+    "id": 5016,
+    "name": "Bone spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5056,
+    "name": "Dwarven battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5057,
+    "name": "Dwarven battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5058,
+    "name": "Dwarven battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5059,
+    "name": "Dwarven battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5628,
+    "name": "Bronze dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5629,
+    "name": "Iron dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5630,
+    "name": "Steel dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5631,
+    "name": "Black dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5632,
+    "name": "Mithril dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5633,
+    "name": "Adamant dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5634,
+    "name": "Rune dart(p+)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5635,
+    "name": "Bronze dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5636,
+    "name": "Iron dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5637,
+    "name": "Steel dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5638,
+    "name": "Black dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5639,
+    "name": "Mithril dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5640,
+    "name": "Adamant dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5641,
+    "name": "Rune dart(p++)",
+    "type": "DART",
+    "twoHanded": false,
+    "speed": 3,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5642,
+    "name": "Bronze javelin(p+)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5643,
+    "name": "Iron javelin(p+)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5644,
+    "name": "Steel javelin(p+)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5645,
+    "name": "Mithril javelin(p+)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5646,
+    "name": "Addy javelin(p+)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5647,
+    "name": "Rune javelin(p+)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5648,
+    "name": "Bronze jav\u0027n(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5649,
+    "name": "Iron javelin(p++)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5650,
+    "name": "Steel javelin(p++)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5651,
+    "name": "Mithril javelin(p++)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5652,
+    "name": "Addy javelin(p++)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5653,
+    "name": "Rune javelin(p++)",
+    "type": "JAVELIN",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5654,
+    "name": "Bronze knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5655,
+    "name": "Iron knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5656,
+    "name": "Steel knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5657,
+    "name": "Mithril knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5658,
+    "name": "Black knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5659,
+    "name": "Adamant knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5660,
+    "name": "Rune knife(p+)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5661,
+    "name": "Bronze knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5662,
+    "name": "Iron knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5663,
+    "name": "Steel knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5664,
+    "name": "Mithril knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5665,
+    "name": "Black knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5666,
+    "name": "Addy knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5667,
+    "name": "Rune knife(p++)",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5668,
+    "name": "Iron dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5670,
+    "name": "Bronze dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5672,
+    "name": "Steel dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5674,
+    "name": "Mithril dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5676,
+    "name": "Adam dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5678,
+    "name": "Rune dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5680,
+    "name": "Dragon dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5682,
+    "name": "Black dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5684,
+    "name": "Poison dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5686,
+    "name": "Iron dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5688,
+    "name": "Br\u0027ze dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5690,
+    "name": "Steel dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5692,
+    "name": "Mithril dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5694,
+    "name": "Adam dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5696,
+    "name": "Rune dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5698,
+    "name": "Drag dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5700,
+    "name": "Black dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5702,
+    "name": "Poison dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5704,
+    "name": "Bronze spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5706,
+    "name": "Iron spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5708,
+    "name": "Steel spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5710,
+    "name": "Mithril spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5712,
+    "name": "Adamant spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5714,
+    "name": "Rune spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5716,
+    "name": "Dragon spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5718,
+    "name": "Bronze spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5720,
+    "name": "Iron spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5722,
+    "name": "Steel spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5724,
+    "name": "Mithril spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5726,
+    "name": "Adam spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5728,
+    "name": "Rune spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5730,
+    "name": "Dragon spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5734,
+    "name": "Black spear(p+)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 5736,
+    "name": "Black spear(p++)",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6082,
+    "name": "Fixed device",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2316,
+      "walk": 2317,
+      "run": 2322
+    }
+  },
+  {
+    "id": 6522,
+    "name": "Toktz-xil-ul",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6523,
+    "name": "Toktz-xil-ak",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6525,
+    "name": "Toktz-xil-ek",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6526,
+    "name": "Toktz-mej-tal",
+    "type": "UNARMED",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6527,
+    "name": "Tzhaar-ket-em",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6528,
+    "name": "Tzhaar-ket-om",
+    "type": "WARHAMMER",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6562,
+    "name": "Mud battlestaff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6563,
+    "name": "Mystic mud staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6587,
+    "name": "White claws",
+    "type": "CLAWS",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6589,
+    "name": "White battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6591,
+    "name": "White dagger",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6593,
+    "name": "White dagger(p)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6595,
+    "name": "White dagger(p+)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6597,
+    "name": "White dagger(p++)",
+    "type": "DAGGER",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6599,
+    "name": "White halberd",
+    "type": "HALBERD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 809,
+      "walk": 1146,
+      "run": 1210
+    }
+  },
+  {
+    "id": 6601,
+    "name": "White mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6603,
+    "name": "White magic staff",
+    "type": "STAFF",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6605,
+    "name": "White sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6607,
+    "name": "White longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6609,
+    "name": "White 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 6611,
+    "name": "White scimitar",
+    "type": "SCIMITAR",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6613,
+    "name": "White warhammer",
+    "type": "WARHAMMER",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6724,
+    "name": "Seercull",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6739,
+    "name": "Dragon axe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6745,
+    "name": "Silverlight",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6746,
+    "name": "Darklight",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6760,
+    "name": "Guthix mjolnir",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6762,
+    "name": "Saradomin mjolnir",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6764,
+    "name": "Zamorak mjolnir",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6818,
+    "name": "Bow-sword",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6897,
+    "name": "Rune longsword",
+    "type": "LONGSWORD",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6908,
+    "name": "Beginner wand",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6910,
+    "name": "Apprentice wand",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6912,
+    "name": "Teacher wand",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 6914,
+    "name": "Master wand",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7158,
+    "name": "Dragon 2h sword",
+    "type": "TWO_HANDED_SWORD",
+    "twoHanded": true,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 2561,
+      "walk": 2064,
+      "run": 2563
+    }
+  },
+  {
+    "id": 7447,
+    "name": "Kitchen knife",
+    "type": "KNIFE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 3,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7668,
+    "name": "Gadderhammer",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7671,
+    "name": "Boxing gloves",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 3677,
+      "walk": 3680,
+      "run": -1
+    }
+  },
+  {
+    "id": 7673,
+    "name": "Boxing gloves",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 3677,
+      "walk": 3680,
+      "run": -1
+    }
+  },
+  {
+    "id": 7675,
+    "name": "Wooden sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7804,
+    "name": "Zaros mjolnir",
+    "type": "UNARMED",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7806,
+    "name": "Anger sword",
+    "type": "SWORD",
+    "twoHanded": false,
+    "speed": 5,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7807,
+    "name": "Anger battleaxe",
+    "type": "BATTLEAXE",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7808,
+    "name": "Anger mace",
+    "type": "MACE",
+    "twoHanded": false,
+    "speed": 4,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  },
+  {
+    "id": 7809,
+    "name": "Anger spear",
+    "type": "SPEAR",
+    "twoHanded": false,
+    "speed": 6,
+    "hitDelay": 2,
+    "combatAnimation": {
+      "block": 424,
+      "stand": 808,
+      "walk": 819,
+      "run": 824
+    }
+  }
+]

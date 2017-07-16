@@ -1,0 +1,52 @@
+[
+  {
+    "id": 9,
+    "name": "Guard",
+    "hitpoints": 22,
+    "aggressive": false,
+    "poisonous": false,
+    "attackSpeed": 6,
+    "hitDelays": [
+      0
+    ],
+    "maxHit": 4,
+    "respawnTime": 20,
+    "defenceAnimation": -1,
+    "deathAnimation": 2304,
+    "attackAnimations": [
+      451
+    ],
+    "immunity": "NONE",
+    "weakness": [
+      "MAGIC"
+    ],
+    "bonuses": {
+      "combat": {
+        "attack": 19,
+        "strength": 18,
+        "defence": 14,
+        "range": 1,
+        "magic": 1
+      },
+      "aggressive": {
+        "stab": 4,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "range": 0
+      },
+      "defensive": {
+        "stab": 18,
+        "slash": 25,
+        "crush": 19,
+        "magic": -4,
+        "range": 20
+      },
+      "other": {
+        "strength": 5,
+        "rangedStrength": 0,
+        "attack": 4
+      }
+    }
+  }
+]

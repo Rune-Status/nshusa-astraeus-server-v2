@@ -1,0 +1,11 @@
+/target/
+/.classpath
+/.project
+/.idea/
+/bin/
+/data/characters/containers/
+/data/characters/details/
+/data/map/
+/.settings/
+/.gradle/
+/build/

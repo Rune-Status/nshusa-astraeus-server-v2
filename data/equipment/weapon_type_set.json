@@ -1,0 +1,197 @@
+[
+  {
+    "type": "PICKAXE",
+    "attackTypes": [
+      "PICKAXE_SPIKE",
+      "PICKAXE_IMPALE",
+      "PICKAXE_SMASH",
+      "PICKAXE_BLOCK"
+    ]
+  },
+  {
+    "type": "SHORTBOW",
+    "attackTypes": [
+      "SHORTBOW_ACCURATE",
+      "SHORTBOW_RAPID",
+      "SHORTBOW_LONGRANGE"
+    ]
+  },
+  {
+    "type": "TWO_HANDED_SWORD",
+    "attackTypes": [
+      "TWOHANDEDSWORD_CHOP",
+      "TWOHANDEDSWORD_SLASH",
+      "TWOHANDEDSWORD_SMASH",
+      "TWOHANDEDSWORD_BLOCK"
+    ]
+  },
+  {
+    "type": "UNARMED",
+    "attackTypes": [
+      "UNARMED_PUNCH",
+      "UNARMED_KICK",
+      "UNARMED_BLOCK"
+    ]
+  },
+  {
+    "type": "SWORD",
+    "attackTypes": [
+      "SWORD_STAB",
+      "SWORD_LUNGE",
+      "SWORD_SLASH",
+      "SWORD_BLOCK"
+    ]
+  },
+  {
+    "type": "LONGBOW",
+    "attackTypes": [
+      "LONGBOW_ACCURATE",
+      "LONGBOW_RAPID",
+      "LONGBOW_LONGRANGE"
+    ]
+  },
+  {
+    "type": "BATTLEAXE",
+    "attackTypes": [
+      "BATTLEAXE_CHOP",
+      "BATTLEAXE_HACK",
+      "BATTLEAXE_SMASH",
+      "BATTLEAXE_BLOCK"
+    ]
+  },
+  {
+    "type": "KNIFE",
+    "attackTypes": [
+      "KNIFE_ACCURATE",
+      "KNIFE_RAPID",
+      "KNIFE_LONGRANGE"
+    ]
+  },
+  {
+    "type": "STAFF",
+    "attackTypes": [
+      "STAFF_BASH",
+      "STAFF_POUND",
+      "STAFF_FOCUS"
+    ]
+  },
+  {
+    "type": "DAGGER",
+    "attackTypes": [
+      "DAGGER_STAB",
+      "DAGGER_LUNGE",
+      "DAGGER_SLASH",
+      "DAGGER_BLOCK"
+    ]
+  },
+  {
+    "type": "MACE",
+    "attackTypes": [
+      "MACE_POUND",
+      "MACE_PUMMEL",
+      "MACE_SPIKE",
+      "MACE_BLOCK"
+    ]
+  },
+  {
+    "type": "THROWNAXE",
+    "attackTypes": [
+      "THROWNAXE_ACCURATE",
+      "THROWNAXE_RAPID",
+      "THROWNAXE_LONGRANGE"
+    ]
+  },
+  {
+    "type": "JAVELIN",
+    "attackTypes": [
+      "JAVELIN_ACCURATE",
+      "JAVELIN_RAPID",
+      "JAVELIN_LONGRANGE"
+    ]
+  },
+  {
+    "type": "WARHAMMER",
+    "attackTypes": [
+      "WARHAMMER_POUND",
+      "WARHAMMER_PUMMEL",
+      "WARHAMMER_BLOCK"
+    ]
+  },
+  {
+    "type": "CLAWS",
+    "attackTypes": [
+      "CLAWS_CHOP",
+      "CLAWS_SLASH",
+      "CLAWS_LUNGE",
+      "CLAWS_BLOCK"
+    ]
+  },
+  {
+    "type": "WHIP",
+    "attackTypes": [
+      "WHIP_FLICK",
+      "WHIP_LASH",
+      "WHIP_DEFLECT"
+    ]
+  },
+  {
+    "type": "SCIMITAR",
+    "attackTypes": [
+      "SCIMITAR_CHOP",
+      "SCIMITAR_SLASH",
+      "SCIMITAR_LUNGE",
+      "SCIMITAR_BLOCK"
+    ]
+  },
+  {
+    "type": "LONGSWORD",
+    "attackTypes": [
+      "LONGSWORD_CHOP",
+      "LONGSWORD_SLASH",
+      "LONGSWORD_LUNGE",
+      "LONGSWORD_BLOCK"
+    ]
+  },
+  {
+    "type": "SCYTHE",
+    "attackTypes": [
+      "SCYTHE_REAP",
+      "SCYTHE_CHOP",
+      "SCYTHE_JAB",
+      "SCYTHE_BLOCK"
+    ]
+  },
+  {
+    "type": "CROSSBOW",
+    "attackTypes": [
+      "CROSSBOW_ACCURATE",
+      "CROSSBOW_RAPID",
+      "CROSSBOW_LONGRANGE"
+    ]
+  },
+  {
+    "type": "SPEAR",
+    "attackTypes": [
+      "SPEAR_LUNGE",
+      "SPEAR_SWIPE",
+      "SPEAR_POUND",
+      "SPEAR_BLOCK"
+    ]
+  },
+  {
+    "type": "HALBERD",
+    "attackTypes": [
+      "HALBERD_JAB",
+      "HALBERD_SWIPE",
+      "HALBERD_FEND"
+    ]
+  },
+  {
+    "type": "DART",
+    "attackTypes": [
+      "DART_ACCURATE",
+      "DART_RAPID",
+      "DART_LONGRANGE"
+    ]
+  }
+]
