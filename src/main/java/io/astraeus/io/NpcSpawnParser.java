@@ -29,7 +29,7 @@ public final class NpcSpawnParser extends GsonParser {
 		
 		Npcs.createSpawn(spawn);
 		
-		System.out.println(id);
+//		System.out.println(id);
 		
 		
 	}
