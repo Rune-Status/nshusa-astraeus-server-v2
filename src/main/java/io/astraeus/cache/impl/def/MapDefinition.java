@@ -1,4 +1,4 @@
-package io.astraeus.cache;
+package io.astraeus.cache.impl.def;
 
 /**
  * Represents the definition of a map.

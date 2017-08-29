@@ -68,6 +68,7 @@ public final class NetworkConstants {
 
   /**
    * The list of exceptions that are ignored and discarded by the {@link UpstreamChannelHandler}.
+   * TODO: Add alternative Languages.
    */
   public static final ImmutableList<String> IGNORED_EXCEPTIONS =
       ImmutableList.of("An existing connection was forcibly closed by the remote host",

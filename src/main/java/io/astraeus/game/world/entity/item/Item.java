@@ -2,7 +2,7 @@ package io.astraeus.game.world.entity.item;
 
 import java.util.Objects;
 
-import io.astraeus.cache.ItemDefinition;
+import io.astraeus.cache.impl.def.ItemDefinition;
 import io.astraeus.game.world.entity.Entity;
 import io.astraeus.game.world.entity.EntityType;
 import lombok.Getter;

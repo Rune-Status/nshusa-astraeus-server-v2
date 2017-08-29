@@ -9,9 +9,10 @@ import java.util.logging.Logger;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.softgate.fs.IndexedFileSystem;
 
-import io.astraeus.cache.ItemDefinition;
-import io.astraeus.cache.NpcDefinition;
-import io.astraeus.cache.ObjectDefinition;
+import io.astraeus.cache.CacheLoader;
+import io.astraeus.cache.impl.def.ItemDefinition;
+import io.astraeus.cache.impl.def.NpcDefinition;
+import io.astraeus.cache.impl.def.ObjectDefinition;
 import io.astraeus.game.world.World;
 import io.astraeus.io.EquipmentDefinitionParser;
 import io.astraeus.io.GlobalObjectParser;
@@ -23,6 +24,7 @@ import io.astraeus.io.PacketSizeParser;
 import io.astraeus.io.WeaponDefinitionParser;
 import io.astraeus.io.WeaponSpecialParser;
 import io.astraeus.io.WeaponTypeSetParser;
+import io.astraeus.net.NetworkConstants;
 import io.astraeus.net.channel.ChannelPiplineInitializer;
 import io.astraeus.net.packet.IncomingPacketHandlerRegistration;
 import io.netty.bootstrap.ServerBootstrap;
@@ -31,6 +33,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.util.ResourceLeakDetector;
 import io.netty.util.ResourceLeakDetector.Level;
+import lombok.Getter;
 
 /**
  * The bootstrap that will prepare the game and network.
@@ -39,117 +42,138 @@ import io.netty.util.ResourceLeakDetector.Level;
  */
 public final class Bootstrap {
 
-  /**
-   * The single logger for this class.
-   */
-  public static final Logger logger = Logger.getLogger(Bootstrap.class.getName());
+	/**
+	 * The single logger for this class.
+	 */
+	public static final Logger logger = Logger.getLogger(Bootstrap.class.getName());
 
-  /**
-   * The {@link ExecutorService} that will run the startup services.
-   */
-  private final ExecutorService serviceLoader = Executors.newSingleThreadExecutor(
-      new ThreadFactoryBuilder().setNameFormat("ServiceLoaderThread").build());
+	/**
+	 * The {@link ExecutorService} that will run the startup services.
+	 */
+	private final ExecutorService serviceLoader = Executors
+			.newSingleThreadExecutor(new ThreadFactoryBuilder().setNameFormat("ServiceLoaderThread").build());
 
-  /**
-   * The engine that manages the games logic.
-   */
-  private final GameEngine service = new GameEngine();
-  
-  /**
-   * The world to setup.
-   */
-  private final World world;
-  
-  /**
-   * Creates a new {@link Bootstrap}.
-   * 
-   * @param world
-   *        The world to setup.
-   */
-  public Bootstrap(World world) {
-    this.world = world;
-  }
+	/**
+	 * The engine that manages the games logic.
+	 */
+	private final GameEngine service = new GameEngine();
 
-  /**
-   * Builds the game by executing any startup services, and starting the game loop.
-   * 
-   * @return The instance of this bootstrap.
-   */
-  public Bootstrap build() throws Exception {
-    logger.info("Unpacking game resources...");
-    // load and cache data
-    executeStartupServices();
+	/**
+	 * The cache loader. Loads the client's cache files. Used for definitions,
+	 * clipping, etc..
+	 */
+	@Getter
+	private static final CacheLoader cacheLoader = new CacheLoader();
 
-    serviceLoader.shutdown();
+	/**
+	 * The world to setup.
+	 */
+	private final World world;
 
-    if (!serviceLoader.awaitTermination(15, TimeUnit.MINUTES)) {
-      throw new IllegalStateException("The background service load took too long!");
-    }
+	/**
+	 * Creates a new {@link Bootstrap}.
+	 * 
+	 * @param world
+	 *            The world to setup.
+	 */
+	public Bootstrap(World world) {
+		this.world = world;
+	}
 
-    logger.info("Preparing game engine...");
+	/**
+	 * Builds the game by executing any startup services, and starting the game
+	 * loop.
+	 * 
+	 * @return The instance of this bootstrap.
+	 */
+	public Bootstrap build() throws Exception {
+		logger.info("Unpacking game resources...");
+		// load and cache data
+		executeStartupServices();
 
-    service.startAsync();
+		serviceLoader.shutdown();
 
-    logger.info("Game Engine has been built");
-    return this;
-  }
+		if (!serviceLoader.awaitTermination(15, TimeUnit.MINUTES)) {
+			throw new IllegalStateException("The background service load took too long!");
+		}
 
-  /**
-   * Builds the network by creating the netty server bootstrap and binding to a specified port.
-   * 
-   * @return The instance of this bootstrap.
-   */
-  public Bootstrap bind() throws InterruptedException {
-    logger.info("Building network");
-    ResourceLeakDetector.setLevel(Level.DISABLED);
-    EventLoopGroup loopGroup = new NioEventLoopGroup();
+		logger.info("Preparing game engine...");
 
-    ServerBootstrap bootstrap = new ServerBootstrap();
+		service.startAsync();
 
-    bootstrap.group(loopGroup).channel(NioServerSocketChannel.class)
-        .childHandler(new ChannelPiplineInitializer()).bind(43593 + world.getId()).syncUninterruptibly();
+		logger.info("Game Engine has been built");
+		return this;
+	}
 
-    Server.serverStarted = true;
-    logger.info(String.format("World %d has been bound to port %d", world.getId(), world.getPort()));    
-    return this;
-  }
+	/**
+	 * Builds the network by creating the netty server bootstrap and binding to a
+	 * specified port.
+	 * 
+	 * @return The instance of this bootstrap.
+	 */
+	public Bootstrap bind() throws InterruptedException {
+		logger.info("Building network");
+		ResourceLeakDetector.setLevel(Level.DISABLED);
+		EventLoopGroup loopGroup = new NioEventLoopGroup();
 
-  /**
-   * Executes external files to be used in game.
-   */
-  private void executeStartupServices() {
+		ServerBootstrap bootstrap = new ServerBootstrap();
 
-    logger.info("Initializing packets...");
-    serviceLoader.execute(() -> {
-      new PacketSizeParser().run();
-      new IncomingPacketHandlerRegistration();
-    });
-    
-    logger.info("Loading cache...");
-    serviceLoader.execute(() -> {
-    	IndexedFileSystem fs = IndexedFileSystem.init(Paths.get("./data/cache/"));
-    	
-    	ItemDefinition.decode(fs);
-    	NpcDefinition.decode(fs);
-    	ObjectDefinition.decode(fs);
-    });
+		try {
+			FileServer.init();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		bootstrap.group(loopGroup).channel(NioServerSocketChannel.class).childHandler(new ChannelPiplineInitializer())
+				.bind(43593 + world.getId()).syncUninterruptibly();
 
-    logger.info("Loading startup files..");
-    serviceLoader.execute(() -> {
-      new GlobalObjectParser().run();
-      new NpcSpawnParser().run();
-      new IPBanParser().run();
-      new EquipmentDefinitionParser().run();
-      new WeaponDefinitionParser().run();
-      new WeaponTypeSetParser().run();
-      new WeaponSpecialParser().run();
-      new NpcCombatDefinitionParser().run();
-      new NpcDropParser().run();
-    });
+		Server.serverStarted = true;
+		logger.info(String.format("World %d has been bound to port %d", world.getId(), world.getPort()));
+		return this;
+	}
 
-    logger.info("Loading plugins");
-    serviceLoader.execute(() -> World.getPluginService().load());
+	/**
+	 * Executes external files to be used in game.
+	 */
+	private void executeStartupServices() {
 
-  }
+		logger.info("Initializing packets...");
+		serviceLoader.execute(() -> {
+			new PacketSizeParser().run();
+			new IncomingPacketHandlerRegistration();
+		});
+
+		logger.info("Loading cache...");
+		serviceLoader.execute(() -> {
+			try {
+				//TODO: bad port of FileServer should merge properly.
+				cacheLoader.init();
+				IndexedFileSystem fs = IndexedFileSystem.init(Paths.get("./data/cache/"));
+				
+				ItemDefinition.decode(fs);
+				NpcDefinition.decode(fs);
+				ObjectDefinition.decode(fs);
+			} catch (Exception e) {
+				;
+			}
+		});
+
+		logger.info("Loading startup files..");
+		serviceLoader.execute(() -> {
+			new GlobalObjectParser().run();
+			new NpcSpawnParser().run();
+			new IPBanParser().run();
+			new EquipmentDefinitionParser().run();
+			new WeaponDefinitionParser().run();
+			new WeaponTypeSetParser().run();
+			new WeaponSpecialParser().run();
+			new NpcCombatDefinitionParser().run();
+			new NpcDropParser().run();
+		});
+
+		logger.info("Loading plugins");
+		serviceLoader.execute(() -> World.getPluginService().load());
+
+	}
 
 }

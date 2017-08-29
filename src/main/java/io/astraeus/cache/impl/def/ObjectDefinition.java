@@ -1,4 +1,4 @@
-package io.astraeus.cache;
+package io.astraeus.cache.impl.def;
 
 import java.io.IOException;
 import java.util.logging.Level;

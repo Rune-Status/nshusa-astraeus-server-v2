@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import io.astraeus.cache.NpcDefinition;
+import io.astraeus.cache.impl.def.NpcDefinition;
 import io.astraeus.game.world.World;
 import io.astraeus.game.world.entity.mob.npc.Npc;
 import io.astraeus.game.world.entity.mob.player.Player;

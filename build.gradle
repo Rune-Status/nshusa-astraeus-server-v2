@@ -17,13 +17,13 @@ dependencies {
     compile group: 'com.google.guava', name: 'guava', version: '19.0'
 
     // https://mvnrepository.com/artifact/io.netty/netty-all
-    compile group: 'io.netty', name: 'netty-all', version: '4.0.37.Final'
+	compile group: 'io.netty', name: 'netty-all', version: '4.1.15.Final'
 
     // https://mvnrepository.com/artifact/com.moandjiezana.toml/toml4j
     compile group: 'com.moandjiezana.toml', name: 'toml4j', version: '0.6.0'
     
-    // https://mvnrepository.com/artifact/org.apache.commons/commons-compress
-	compile group: 'org.apache.commons', name: 'commons-compress', version: '1.14'    
+    // https://mvnrepository.com/artifact/org.apache.ant/ant
+	compile group: 'org.apache.ant', name: 'ant', version: '1.10.1'  
     
     compile files('lib/rsam-1.01.jar')
 

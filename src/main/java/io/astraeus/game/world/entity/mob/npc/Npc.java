@@ -3,7 +3,7 @@ package io.astraeus.game.world.entity.mob.npc;
 import java.util.Objects;
 import java.util.Optional;
 
-import io.astraeus.cache.NpcDefinition;
+import io.astraeus.cache.impl.def.NpcDefinition;
 import io.astraeus.game.GameConstants;
 import io.astraeus.game.world.Direction;
 import io.astraeus.game.world.Position;

@@ -1,6 +1,6 @@
 package io.astraeus.game.world.entity.mob.combat.dmg;
 
-import io.astraeus.cache.ItemDefinition;
+import io.astraeus.cache.impl.def.ItemDefinition;
 import io.astraeus.util.RandomUtils;
 import lombok.Getter;
 

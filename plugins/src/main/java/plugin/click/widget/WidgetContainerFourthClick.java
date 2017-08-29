@@ -1,6 +1,6 @@
 package plugin.click.widget;
 
-import io.astraeus.cache.ItemDefinition;
+import io.astraeus.cache.impl.def.ItemDefinition;
 import io.astraeus.game.event.EventContext;
 import io.astraeus.game.event.EventSubscriber;
 import io.astraeus.game.event.SubscribesTo;
